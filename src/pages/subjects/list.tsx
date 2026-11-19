@@ -16,7 +16,6 @@ import {Subject} from "@/types";
 import { useTable } from "@refinedev/react-table";
 import { type ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/components/ui/badge";
-import { Search } from "lucide-react";
 
 const SubjectsList = () => {
     const [searchQuery , setSearchQuery] = useState('');
